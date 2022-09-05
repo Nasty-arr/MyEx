@@ -20,6 +20,7 @@ public class Ex1 {
             univer.addDepartament();
         }
 
+
         int flag = 1;
         while (flag != 0) {
             System.out.print("Все данные обновлены. Что вы хотите сделать дальше\n" +
