@@ -113,6 +113,7 @@ public class Ex1 {
             }
             System.out.print("Для завершения работы программы введите 0, иначе - введите любую цифру");
             flag = scanner.nextInt();
+            st = scanner.nextLine();
         }
     }
 }
@@ -142,6 +143,7 @@ class University {
         String name = scanner.nextLine();
         System.out.print("введите id стдента\n");
         int studentID = scanner.nextInt();
+        String st=scanner.nextLine();
         countst++;
         Student[] tmp = new Student[countst];
         System.arraycopy(students, 0, tmp, 0, countst - 1);
