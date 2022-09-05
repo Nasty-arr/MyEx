@@ -1,6 +1,6 @@
-import java.io.IOException;
-import java.util.Scanner;
-public class MyEx1_1 {
+package org.example.toropchin;
+        import java.util.Scanner;
+public class Ex1 {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class MyEx1_1 {
         }
         int flag = 1;
         while (flag != 0) {
-            System.out.print("Все данные обновлены. Что вы хотите сделать дальше\n " +
+            System.out.print("Все данные обновлены. Что вы хотите сделать дальше\n" +
                     "1-добвить студента\n " +
                     "2-удалить студента\n " +
                     "3-добавить факультет\n " +
@@ -196,7 +196,7 @@ class University {
 
     public void getAllStudent(){
         for (int i = 0; i < this.students.length; i++) {
-                System.out.printf("Имя студента: %s id студента: %d\n", students[i].name, students[i].studentID);
+            System.out.printf("Имя студента: %s id студента: %d\n", students[i].name, students[i].studentID);
         }
     }
 
